@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.login-wrapper {
+    display: flex;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+}
+
+.login-image {
+    flex: 1;
+    background: #eaf6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.login-image img {
+    width: 100%;
+    max-width: 320px;
+}
+
+.login-form {
+    flex: 1;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #76BA99;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-group i {
+    position: absolute;
+    left: 12px;
+    top: 38px;
+    color: #76BA99;
+}
+
+.form-group select,
+.form-group input {
+    width: 100%;
+    padding: 10px 12px 10px 36px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border 0.3s ease;
+}
+
+.form-group select:focus,
+.form-group input:focus {
+    border-color: #76BA99;
+    outline: none;
+    box-shadow: 0 0 5px rgba(109, 175, 191, 0.5);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #76BA99;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #9BE8D8;
+}
+
+@media (max-width: 768px) {
+    .login-wrapper {
+        flex-direction: column;
+    }
+
+    .login-image {
+        display: none;
+    }
+}
+
+.errorMessage {
+    color: red;
+    font-size: 0.85em;
+    margin-top: 4px;
+}

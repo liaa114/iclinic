@@ -1,0 +1,1343 @@
+2025/08/01 12:32:38 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index.php". in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index.php/...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iclinic/index.php/site/index.php/site/dashboard
+HTTP_REFERER=http://localhost/iclinic/index.php/site/
+---
+2025/08/01 14:27:42 [error] [php] Undefined variable $model (C:\xampp\htdocs\iclinic\protected\views\site\index.php:14)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(9): SiteController->render()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\iclinic\index.php(13): CWebApplication->run()
+REQUEST_URI=/iclinic/index.php/site/
+in C:\xampp\htdocs\iclinic\protected\views\site\index.php (14)
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (9)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/01 15:06:04 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iclinic/index.php/site/
+---
+2025/08/01 15:06:07 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iclinic/index.php/site/
+---
+2025/08/01 15:13:13 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('logout')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/logout')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iclinic/index.php/site/logout
+HTTP_REFERER=http://localhost/iclinic/index.php/site/dashboard
+---
+2025/08/01 15:14:41 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "login". in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iclinic/index.php/site/login
+---
+2025/08/01 15:14:54 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "login". in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iclinic/index.php/site/login
+---
+2025/08/01 15:14:56 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "login". in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iclinic/index.php/site/login
+---
+2025/08/01 15:17:07 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "login". in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iclinic/index.php/site/login
+---
+2025/08/01 16:46:11 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "pages". in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('pages')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('pages')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/pages/dash...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iclinic/index.php/site/pages/dashboard
+HTTP_REFERER=http://localhost/iclinic/index.php/site/index
+---
+2025/08/01 16:46:47 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "pages". in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('pages')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('pages')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/pages/dash...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iclinic/index.php/site/pages/dashboard
+HTTP_REFERER=http://localhost/iclinic/index.php/site/index
+---
+2025/08/01 16:47:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "layouts/dashboard". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/dashboa...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iclinic/index.php/layouts/dashboard
+HTTP_REFERER=http://localhost/iclinic/index.php/site/index
+---
+2025/08/01 16:49:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "layouts/dashboard". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/dashboa...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iclinic/index.php/layouts/dashboard
+HTTP_REFERER=http://localhost/iclinic/index.php/site/index
+---
+2025/08/01 17:06:57 [error] [exception.CException] CException: Property "Users.status" is not defined. in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('status')
+#1 C:\xampp\htdocs\iclinic\protected\views\site\pages\user-list.php(27): CActiveRecord->__get('status')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('pages/user-list', Array, true)
+#6 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(71): CController->render('pages/user-list', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionUserList()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('userList')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/userList')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/iclinic/index.php/site/userList
+HTTP_REFERER=http://localhost/iclinic/index.php/site/dashboard
+---
+2025/08/01 18:29:41 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('editUser')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/editUser')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iclinic/index.php/site/editUser/4
+HTTP_REFERER=http://localhost/iclinic/index.php/site/userList
+---
+2025/08/01 18:31:20 [warning] [application] Failed to set unsafe attribute "username" of "Users".
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (85)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/01 18:31:20 [warning] [application] Failed to set unsafe attribute "role" of "Users".
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (85)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/01 18:31:20 [warning] [application] Failed to set unsafe attribute "nama_lengkap" of "Users".
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (85)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/01 18:56:04 [warning] [application] Failed to set unsafe attribute "password" of "Users".
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (80)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/01 18:56:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "password" of relation "users" violates not-null constraint
+DETAIL:  Failing row contains (5, Mumu, null, Kasir, Mumu Man, 2025-08-01 23:56:04.075434).. The SQL statement executed was: INSERT INTO "users" ("username", "role", "nama_lengkap") VALUES (:yp0, :yp1, :yp2).
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (88)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/01 18:56:04 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "password" of relation "users" violates not-null constraint
+DETAIL:  Failing row contains (5, Mumu, null, Kasir, Mumu Man, 2025-08-01 23:56:04.075434).. The SQL statement executed was: INSERT INTO "users" ("username", "role", "nama_lengkap") VALUES (:yp0, :yp1, :yp2) in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(88): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionAddUser()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('addUser')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addUser')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/iclinic/index.php/site/addUser
+HTTP_REFERER=http://localhost/iclinic/index.php/site/addUser
+---
+2025/08/01 19:25:07 [error] [exception.CException] CException: SiteController cannot find the requested view "pages/list-pegawai". in C:\xampp\htdocs\yii\framework\web\CController.php:881
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('pages/list-pega...', Array, true)
+#1 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(168): CController->render('pages/list-pega...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionPegawai()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('pegawai')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/pegawai')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iclinic/index.php/site/pegawai
+HTTP_REFERER=http://localhost/iclinic/index.php/site/dashboard
+---
+2025/08/01 19:27:33 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('addPegawai')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addPegawai')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iclinic/index.php/site/addPegawai
+HTTP_REFERER=http://localhost/iclinic/index.php/site/pegawai
+---
+2025/08/01 19:29:25 [error] [exception.CException] CException: SiteController cannot find the requested view "pages/user/add-pegawai". in C:\xampp\htdocs\yii\framework\web\CController.php:881
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('pages/user/add-...', Array, true)
+#1 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(186): CController->render('pages/user/add-...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionAddPegawai()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('addPegawai')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addPegawai')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iclinic/index.php/site/addPegawai
+HTTP_REFERER=http://localhost/iclinic/index.php/site/pegawai
+---
+2025/08/01 19:30:39 [error] [exception.CException] CException: Property "Pegawai.wilayah" is not defined. in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('wilayah')
+#1 C:\xampp\htdocs\iclinic\protected\views\site\pages\pegawai\add-pegawai.php(19): CActiveRecord->__get('wilayah')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('pages/pegawai/a...', Array, true)
+#6 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(186): CController->render('pages/pegawai/a...', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionAddPegawai()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('addPegawai')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addPegawai')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/iclinic/index.php/site/addPegawai
+HTTP_REFERER=http://localhost/iclinic/index.php/site/pegawai
+---
+2025/08/01 19:30:49 [error] [exception.CException] CException: Property "Pegawai.wilayah" is not defined. in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('wilayah')
+#1 C:\xampp\htdocs\iclinic\protected\views\site\pages\pegawai\add-pegawai.php(19): CActiveRecord->__get('wilayah')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('pages/pegawai/a...', Array, true)
+#6 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(186): CController->render('pages/pegawai/a...', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionAddPegawai()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('addPegawai')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addPegawai')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/iclinic/index.php/site/addPegawai
+HTTP_REFERER=http://localhost/iclinic/index.php/site/pegawai
+---
+2025/08/01 20:09:04 [warning] [application] Failed to set unsafe attribute "tanggal_lahir" of "Pasien".
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (243)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/01 20:09:55 [warning] [application] Failed to set unsafe attribute "tanggal_lahir" of "Pasien".
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (260)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/01 21:39:41 [error] [exception.TypeError] TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in C:\xampp\htdocs\iclinic\protected\views\layouts\dashboard.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iclinic\protected\views\layouts\dashboard.php(18): in_array('userList', 'dashboard')
+#1 C:\xampp\htdocs\iclinic\protected\views\layouts\dashboard.php(70): isActive('site', 'dashboard')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(96): CController->render('pages/user/user...', Array)
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionUserList()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('userList')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/userList')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/iclinic/index.php/site/userList
+HTTP_REFERER=http://localhost/iclinic/index.php/site/userList
+---
+2025/08/02 12:05:19 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "daftarPasien". in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('daftarPasien')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('daftarPasien')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/daftarPasi...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iclinic/index.php/site/daftarPasien
+HTTP_REFERER=http://localhost/iclinic/index.php/site/pasien
+---
+2025/08/02 12:08:00 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "daftarPasien". in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('daftarPasien')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('daftarPasien')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/daftarPasi...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iclinic/index.php/site/daftarPasien
+HTTP_REFERER=http://localhost/iclinic/index.php/site/pasien
+---
+2025/08/03 08:35:16 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('addTransaksi')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addTransak...')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iclinic/index.php/site/addTransaksi
+HTTP_REFERER=http://localhost/iclinic/index.php/site/dashboard
+---
+2025/08/03 08:56:22 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "listTransaksi". in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('listTransaksi')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listTransaksi')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/listTransa...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iclinic/index.php/site/listTransaksi
+HTTP_REFERER=http://localhost/iclinic/index.php/site/addTransaksi
+---
+2025/08/03 09:00:02 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "listTransaksi". in C:\xampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('listTransaksi')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listTransaksi')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/listTransa...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iclinic/index.php/site/listTransaksi
+HTTP_REFERER=http://localhost/iclinic/index.php/site/addTransaksi
+---
+2025/08/03 09:16:42 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function CWebUser::setFlash(), 1 passed in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php on line 511 and at least 2 expected in C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php:684
+Stack trace:
+#0 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(511): CWebUser->setFlash('errorJumlah oba...')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionAddTransaksi()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('addTransaksi')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addTransak...')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/iclinic/index.php/site/addTransaksi
+HTTP_REFERER=http://localhost/iclinic/index.php/site/addTransaksi
+---
+2025/08/03 13:23:35 [error] [exception.CDbException] CDbException: Relation "invoice" is not defined in active record class "Transaksi". in C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php:227
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(300): CActiveFinder->buildJoinTree(Object(CJoinElement), 'invoice')
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(915): CActiveFinder->__construct(Object(Transaksi), Array)
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1363): CActiveRecord->getActiveFinder(Array)
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#5 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(573): CActiveRecord->findAll()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionListInvoice()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listInvoice')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/listInvoic...')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/iclinic/index.php/site/listInvoice
+HTTP_REFERER=http://localhost/iclinic/index.php/site/dashboard
+---
+2025/08/03 13:25:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "id" is ambiguous
+LINE 1: ...oice" ON ("invoice"."transaksi_id"="t"."id") ORDER BY id ASC
+                                                                 ^. The SQL statement executed was: SELECT "t"."id" AS "t0_c0", "t"."pasien_id" AS "t0_c1", "t"."tindakan_id" AS "t0_c2", "t"."tanggal_kunjungan" AS "t0_c3", "t"."total_harga" AS "t0_c4", "pasien"."id" AS "t1_c0", "pasien"."nama" AS "t1_c1", "pasien"."nik" AS "t1_c2", "pasien"."alamat" AS "t1_c3", "pasien"."tanggal_lahir" AS "t1_c4", "pasien"."jenis_kelamin" AS "t1_c5", "pasien"."created_at" AS "t1_c6", "pasien"."kunjungan_id" AS "t1_c7", "pasien"."keterangan_kunjungan" AS "t1_c8", "pasien"."user_id" AS "t1_c9", "tindakan"."id" AS "t2_c0", "tindakan"."nama_tindakan" AS "t2_c1", "tindakan"."deskripsi" AS "t2_c2", "tindakan"."harga" AS "t2_c3", "transaksiObats"."id" AS "t3_c0", "transaksiObats"."transaksi_id" AS "t3_c1", "transaksiObats"."obat_id" AS "t3_c2", "transaksiObats"."jumlah" AS "t3_c3", "transaksiObats"."total_harga" AS "t3_c4", "invoice"."id" AS "t4_c0", "invoice"."transaksi_id" AS "t4_c1", "invoice"."transaksi_obat_id" AS "t4_c2", "invoice"."user_id" AS "t4_c3", "invoice"."metode_bayar" AS "t4_c4", "invoice"."total_bayar" AS "t4_c5", "invoice"."status" AS "t4_c6", "invoice"."created_at" AS "t4_c7" FROM "transaksi" "t"  LEFT OUTER JOIN "pasien" "pasien" ON ("t"."pasien_id"="pasien"."id") LEFT OUTER JOIN "tindakan" "tindakan" ON ("t"."tindakan_id"="tindakan"."id") LEFT OUTER JOIN "transaksi_obat" "transaksiObats" ON ("transaksiObats"."transaksi_id"="t"."id") LEFT OUTER JOIN "invoice" "invoice" ON ("invoice"."transaksi_id"="t"."id") ORDER BY id ASC.
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (573)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/03 13:25:50 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "id" is ambiguous
+LINE 1: ...oice" ON ("invoice"."transaksi_id"="t"."id") ORDER BY id ASC
+                                                                 ^. The SQL statement executed was: SELECT "t"."id" AS "t0_c0", "t"."pasien_id" AS "t0_c1", "t"."tindakan_id" AS "t0_c2", "t"."tanggal_kunjungan" AS "t0_c3", "t"."total_harga" AS "t0_c4", "pasien"."id" AS "t1_c0", "pasien"."nama" AS "t1_c1", "pasien"."nik" AS "t1_c2", "pasien"."alamat" AS "t1_c3", "pasien"."tanggal_lahir" AS "t1_c4", "pasien"."jenis_kelamin" AS "t1_c5", "pasien"."created_at" AS "t1_c6", "pasien"."kunjungan_id" AS "t1_c7", "pasien"."keterangan_kunjungan" AS "t1_c8", "pasien"."user_id" AS "t1_c9", "tindakan"."id" AS "t2_c0", "tindakan"."nama_tindakan" AS "t2_c1", "tindakan"."deskripsi" AS "t2_c2", "tindakan"."harga" AS "t2_c3", "transaksiObats"."id" AS "t3_c0", "transaksiObats"."transaksi_id" AS "t3_c1", "transaksiObats"."obat_id" AS "t3_c2", "transaksiObats"."jumlah" AS "t3_c3", "transaksiObats"."total_harga" AS "t3_c4", "invoice"."id" AS "t4_c0", "invoice"."transaksi_id" AS "t4_c1", "invoice"."transaksi_obat_id" AS "t4_c2", "invoice"."user_id" AS "t4_c3", "invoice"."metode_bayar" AS "t4_c4", "invoice"."total_bayar" AS "t4_c5", "invoice"."status" AS "t4_c6", "invoice"."created_at" AS "t4_c7" FROM "transaksi" "t"  LEFT OUTER JOIN "pasien" "pasien" ON ("t"."pasien_id"="pasien"."id") LEFT OUTER JOIN "tindakan" "tindakan" ON ("t"."tindakan_id"="tindakan"."id") LEFT OUTER JOIN "transaksi_obat" "transaksiObats" ON ("transaksiObats"."transaksi_id"="t"."id") LEFT OUTER JOIN "invoice" "invoice" ON ("invoice"."transaksi_id"="t"."id") ORDER BY id ASC in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(810): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(441): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1364): CActiveFinder->query(Object(CDbCriteria), true)
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#6 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(573): CActiveRecord->findAll(Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionListInvoice()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listInvoice')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/listInvoic...')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/iclinic/index.php/site/listInvoice
+HTTP_REFERER=http://localhost/iclinic/index.php/site/dashboard
+---
+2025/08/03 13:28:08 [error] [exception.CDbException] CDbException: Relation "transaksi" is not defined in active record class "Transaksi". in C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php:227
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(211): CActiveFinder->buildJoinTree(Object(CJoinElement), 'transaksi')
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(300): CActiveFinder->buildJoinTree(Object(CJoinElement), 'transaksi.pasie...')
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(915): CActiveFinder->__construct(Object(Transaksi), Array)
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1363): CActiveRecord->getActiveFinder(Array)
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#6 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(573): CActiveRecord->findAll(Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionListInvoice()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listInvoice')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/listInvoic...')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/iclinic/index.php/site/listInvoice
+HTTP_REFERER=http://localhost/iclinic/index.php/site/dashboard
+---
+2025/08/03 13:30:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "invoice" violates foreign key constraint "invoice_user_id_fkey"
+DETAIL:  Key (user_id)=(0) is not present in table "users".. The SQL statement executed was: INSERT INTO "invoice" ("status", "transaksi_id", "user_id", "metode_bayar", "total_bayar") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (603)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/03 13:30:35 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "invoice" violates foreign key constraint "invoice_user_id_fkey"
+DETAIL:  Key (user_id)=(0) is not present in table "users".. The SQL statement executed was: INSERT INTO "invoice" ("status", "transaksi_id", "user_id", "metode_bayar", "total_bayar") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4) in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(603): CActiveRecord->save()
+#3 [internal function]: SiteController->actionAddInvoice('17')
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('addInvoice')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addInvoice')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/iclinic/index.php/site/addInvoice/17
+HTTP_REFERER=http://localhost/iclinic/index.php/site/addInvoice/17
+---
+2025/08/03 13:32:19 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "invoice" violates foreign key constraint "invoice_user_id_fkey"
+DETAIL:  Key (user_id)=(0) is not present in table "users".. The SQL statement executed was: INSERT INTO "invoice" ("status", "transaksi_id", "user_id", "metode_bayar", "total_bayar") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (603)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/03 13:32:19 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "invoice" violates foreign key constraint "invoice_user_id_fkey"
+DETAIL:  Key (user_id)=(0) is not present in table "users".. The SQL statement executed was: INSERT INTO "invoice" ("status", "transaksi_id", "user_id", "metode_bayar", "total_bayar") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4) in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(603): CActiveRecord->save()
+#3 [internal function]: SiteController->actionAddInvoice('17')
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('addInvoice')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addInvoice')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/iclinic/index.php/site/addInvoice/17
+HTTP_REFERER=http://localhost/iclinic/index.php/site/addInvoice/17
+---
+2025/08/03 13:35:58 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "invoice" violates foreign key constraint "invoice_user_id_fkey"
+DETAIL:  Key (user_id)=(0) is not present in table "users".. The SQL statement executed was: INSERT INTO "invoice" ("status", "transaksi_id", "user_id", "metode_bayar", "total_bayar") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (603)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/03 13:35:58 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "invoice" violates foreign key constraint "invoice_user_id_fkey"
+DETAIL:  Key (user_id)=(0) is not present in table "users".. The SQL statement executed was: INSERT INTO "invoice" ("status", "transaksi_id", "user_id", "metode_bayar", "total_bayar") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4) in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(603): CActiveRecord->save()
+#3 [internal function]: SiteController->actionAddInvoice('17')
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('addInvoice')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addInvoice')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/iclinic/index.php/site/addInvoice/17
+HTTP_REFERER=http://localhost/iclinic/index.php/site/addInvoice/17
+---
+2025/08/03 13:48:41 [error] [php] Undefined variable $transaksi (C:\xampp\htdocs\iclinic\protected\views\site\pages\transaksi\list-transaksi.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(453): SiteController->render()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionListTransaksi()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(13): CWebApplication->run()
+REQUEST_URI=/iclinic/index.php/site/listTransaksi
+in C:\xampp\htdocs\iclinic\protected\views\site\pages\transaksi\list-transaksi.php (34)
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (453)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/03 13:49:13 [error] [php] Undefined variable $transaksi (C:\xampp\htdocs\iclinic\protected\views\site\pages\transaksi\list-transaksi.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(453): SiteController->render()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionListTransaksi()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(13): CWebApplication->run()
+REQUEST_URI=/iclinic/index.php/site/listTransaksi
+in C:\xampp\htdocs\iclinic\protected\views\site\pages\transaksi\list-transaksi.php (34)
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (453)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/03 13:50:13 [error] [php] Undefined variable $transaksi (C:\xampp\htdocs\iclinic\protected\views\site\pages\transaksi\list-transaksi.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(453): SiteController->render()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionListTransaksi()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(13): CWebApplication->run()
+REQUEST_URI=/iclinic/index.php/site/listTransaksi
+in C:\xampp\htdocs\iclinic\protected\views\site\pages\transaksi\list-transaksi.php (34)
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (453)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/03 13:50:15 [error] [php] Undefined variable $transaksi (C:\xampp\htdocs\iclinic\protected\views\site\pages\transaksi\list-transaksi.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(453): SiteController->render()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionListTransaksi()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(13): CWebApplication->run()
+REQUEST_URI=/iclinic/index.php/site/listTransaksi
+in C:\xampp\htdocs\iclinic\protected\views\site\pages\transaksi\list-transaksi.php (34)
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (453)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/03 13:51:27 [error] [php] Undefined variable $transaksi (C:\xampp\htdocs\iclinic\protected\views\site\pages\transaksi\list-transaksi.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(453): SiteController->render()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionListTransaksi()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(13): CWebApplication->run()
+REQUEST_URI=/iclinic/index.php/site/listTransaksi
+in C:\xampp\htdocs\iclinic\protected\views\site\pages\transaksi\list-transaksi.php (34)
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (453)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/03 14:05:39 [error] [php] Undefined variable $t (C:\xampp\htdocs\iclinic\protected\views\site\pages\invoice\add-invoice.php:25)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(622): SiteController->render()
+#5 unknown(0): SiteController->actionAddInvoice()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\iclinic\index.php(13): CWebApplication->run()
+REQUEST_URI=/iclinic/index.php/site/addInvoice/18
+in C:\xampp\htdocs\iclinic\protected\views\site\pages\invoice\add-invoice.php (25)
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (622)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/03 14:57:20 [error] [exception.CException] CException: SiteController cannot find the requested view "pages/pdf/invoice". in C:\xampp\htdocs\yii\framework\web\CController.php:881
+Stack trace:
+#0 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(632): CController->renderPartial('pages/pdf/invoi...', Array, true)
+#1 [internal function]: SiteController->actionAddInvoice('16')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('addInvoice')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addInvoice')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\iclinic\index.php(16): CApplication->run()
+#16 {main}
+REQUEST_URI=/iclinic/index.php/site/addInvoice/16
+HTTP_REFERER=http://localhost/iclinic/index.php/site/addInvoice/16
+---
+2025/08/03 15:10:47 [error] [php] Undefined variable $index (C:\xampp\htdocs\iclinic\protected\views\site\pages\user\user-list.php:29)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(107): SiteController->render()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionUserList()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(16): CWebApplication->run()
+REQUEST_URI=/iclinic/index.php/site/userList
+in C:\xampp\htdocs\iclinic\protected\views\site\pages\user\user-list.php (29)
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (107)
+in C:\xampp\htdocs\iclinic\index.php (16)
+2025/08/03 15:13:49 [error] [php] Undefined variable $index (C:\xampp\htdocs\iclinic\protected\views\site\pages\tindakan\list-tindakan.php:28)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(305): SiteController->render()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTindakan()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(16): CWebApplication->run()
+REQUEST_URI=/iclinic/index.php/site/tindakan
+in C:\xampp\htdocs\iclinic\protected\views\site\pages\tindakan\list-tindakan.php (28)
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (305)
+in C:\xampp\htdocs\iclinic\index.php (16)
+2025/08/03 15:14:18 [error] [php] Undefined variable $index (C:\xampp\htdocs\iclinic\protected\views\site\pages\kunjungan\list-kunjungan.php:28)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(400): SiteController->render()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionKunjungan()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(16): CWebApplication->run()
+REQUEST_URI=/iclinic/index.php/site/kunjungan
+in C:\xampp\htdocs\iclinic\protected\views\site\pages\kunjungan\list-kunjungan.php (28)
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (400)
+in C:\xampp\htdocs\iclinic\index.php (16)
+2025/08/03 15:15:00 [error] [php] Undefined variable $index (C:\xampp\htdocs\iclinic\protected\views\site\pages\pegawai\list-pegawai.php:31)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(204): SiteController->render()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionPegawai()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(16): CWebApplication->run()
+REQUEST_URI=/iclinic/index.php/site/pegawai
+in C:\xampp\htdocs\iclinic\protected\views\site\pages\pegawai\list-pegawai.php (31)
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (204)
+in C:\xampp\htdocs\iclinic\index.php (16)
+2025/08/03 15:15:37 [error] [php] Undefined variable $index (C:\xampp\htdocs\iclinic\protected\views\site\pages\obat\list-obat.php:29)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(351): SiteController->render()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionObat()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(16): CWebApplication->run()
+REQUEST_URI=/iclinic/index.php/site/obat
+in C:\xampp\htdocs\iclinic\protected\views\site\pages\obat\list-obat.php (29)
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (351)
+in C:\xampp\htdocs\iclinic\index.php (16)
+2025/08/03 15:19:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  update or delete on table "tindakan" violates foreign key constraint "transaksi_tindakan_id_fkey" on table "transaksi"
+DETAIL:  Key (id)=(1) is still referenced from table "transaksi".. The SQL statement executed was: DELETE FROM "tindakan" WHERE "tindakan"."id"=1.
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (343)
+in C:\xampp\htdocs\iclinic\index.php (16)
+2025/08/03 15:19:57 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  update or delete on table "tindakan" violates foreign key constraint "transaksi_tindakan_id_fkey" on table "transaksi"
+DETAIL:  Key (id)=(1) is still referenced from table "transaksi".. The SQL statement executed was: DELETE FROM "tindakan" WHERE "tindakan"."id"=1 in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1810): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1230): CActiveRecord->deleteByPk(1)
+#2 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(343): CActiveRecord->delete()
+#3 [internal function]: SiteController->actionDeleteTindakan('1')
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('deleteTindakan')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/deleteTind...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(16): CApplication->run()
+#18 {main}
+REQUEST_URI=/iclinic/index.php/site/deleteTindakan/1
+HTTP_REFERER=http://localhost/iclinic/index.php/site/tindakan
+---
+2025/08/03 15:30:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  update or delete on table "tindakan" violates foreign key constraint "transaksi_tindakan_id_fkey" on table "transaksi"
+DETAIL:  Key (id)=(1) is still referenced from table "transaksi".. The SQL statement executed was: DELETE FROM "tindakan" WHERE "tindakan"."id"=1.
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (348)
+in C:\xampp\htdocs\iclinic\index.php (16)
+2025/08/03 15:30:13 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  update or delete on table "tindakan" violates foreign key constraint "transaksi_tindakan_id_fkey" on table "transaksi"
+DETAIL:  Key (id)=(1) is still referenced from table "transaksi".. The SQL statement executed was: DELETE FROM "tindakan" WHERE "tindakan"."id"=1 in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1810): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1230): CActiveRecord->deleteByPk(1)
+#2 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(348): CActiveRecord->delete()
+#3 [internal function]: SiteController->actionDeleteTindakan('1')
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('deleteTindakan')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/deleteTind...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(16): CApplication->run()
+#18 {main}
+REQUEST_URI=/iclinic/index.php/site/deleteTindakan/1
+HTTP_REFERER=http://localhost/iclinic/index.php/site/tindakan
+---
+2025/08/03 15:43:24 [error] [php] Undefined variable $jumlahObat (C:\xampp\htdocs\iclinic\protected\views\site\pages\app.php:7)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(98): SiteController->render()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionDashboard()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(16): CWebApplication->run()
+REQUEST_URI=/iclinic/index.php/site/dashboard
+in C:\xampp\htdocs\iclinic\protected\views\site\pages\app.php (7)
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\iclinic\index.php (16)
+2025/08/03 15:49:53 [error] [exception.CException] CException: Obat and its behaviors do not have a method or closure named "sum". in C:\xampp\htdocs\yii\framework\base\CComponent.php:264
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('sum', Array)
+#1 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(100): CActiveRecord->__call('sum', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionDashboard()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('dashboard')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/dashboard')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iclinic\index.php(16): CApplication->run()
+#15 {main}
+REQUEST_URI=/iclinic/index.php/site/dashboard
+HTTP_REFERER=http://localhost/iclinic/index.php/site/kunjungan
+---
+2025/08/03 15:51:56 [error] [exception.CException] CException: Property "Obat.total_stok" is not defined. in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('total_stok')
+#1 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(102): CActiveRecord->__get('total_stok')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionDashboard()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('dashboard')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/dashboard')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iclinic\index.php(16): CApplication->run()
+#15 {main}
+REQUEST_URI=/iclinic/index.php/site/dashboard
+HTTP_REFERER=http://localhost/iclinic/index.php/site/kunjungan
+---
+2025/08/03 15:54:20 [error] [exception.CException] CException: SiteController cannot find the requested view "dashboard". in C:\xampp\htdocs\yii\framework\web\CController.php:881
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('dashboard', Array, true)
+#1 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(125): CController->render('dashboard', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionDashboard()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('dashboard')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/dashboard')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iclinic\index.php(16): CApplication->run()
+#15 {main}
+REQUEST_URI=/iclinic/index.php/site/dashboard
+HTTP_REFERER=http://localhost/iclinic/index.php/site/kunjungan
+---
+2025/08/03 15:57:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42703]: Undefined column: 7 ERROR:  column t.obat_id does not exist
+LINE 3: JOIN "obat" "o" ON t.obat_id = o.id
+                           ^. The SQL statement executed was: SELECT o.nama_obat, COUNT(t.obat_id) AS total_resep
+FROM "transaksi" "t"
+JOIN "obat" "o" ON t.obat_id = o.id
+GROUP BY "o"."nama_obat"
+ORDER BY "total_resep" DESC LIMIT 5.
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (131)
+in C:\xampp\htdocs\iclinic\index.php (16)
+2025/08/03 15:57:32 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42703]: Undefined column: 7 ERROR:  column t.obat_id does not exist
+LINE 3: JOIN "obat" "o" ON t.obat_id = o.id
+                           ^. The SQL statement executed was: SELECT o.nama_obat, COUNT(t.obat_id) AS total_resep
+FROM "transaksi" "t"
+JOIN "obat" "o" ON t.obat_id = o.id
+GROUP BY "o"."nama_obat"
+ORDER BY "total_resep" DESC LIMIT 5 in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(131): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionDashboard()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('dashboard')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/dashboard')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iclinic\index.php(16): CApplication->run()
+#15 {main}
+REQUEST_URI=/iclinic/index.php/site/dashboard
+HTTP_REFERER=http://localhost/iclinic/index.php/site/kunjungan
+---
+2025/08/03 16:13:54 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42883]: Undefined function: 7 ERROR:  function curdate() does not exist
+LINE 1: ...T(*) FROM "pasien" "t" WHERE DATE(tanggal_lahir) = CURDATE()
+                                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.. The SQL statement executed was: SELECT COUNT(*) FROM "pasien" "t" WHERE DATE(tanggal_lahir) = CURDATE().
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (103)
+in C:\xampp\htdocs\iclinic\index.php (16)
+2025/08/03 16:13:54 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42883]: Undefined function: 7 ERROR:  function curdate() does not exist
+LINE 1: ...T(*) FROM "pasien" "t" WHERE DATE(tanggal_lahir) = CURDATE()
+                                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.. The SQL statement executed was: SELECT COUNT(*) FROM "pasien" "t" WHERE DATE(tanggal_lahir) = CURDATE() in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(103): CActiveRecord->count('DATE(tanggal_la...')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionDashboard()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('dashboard')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/dashboard')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\iclinic\index.php(16): CApplication->run()
+#16 {main}
+REQUEST_URI=/iclinic/index.php/site/dashboard
+HTTP_REFERER=http://localhost/iclinic/index.php/site/kunjungan
+---
+2025/08/03 16:16:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "to"
+LINE 2:         SELECT o.nama_obat, SUM(to.jumlah) AS total_resep
+                                        ^. The SQL statement executed was: 
+        SELECT o.nama_obat, SUM(to.jumlah) AS total_resep
+        FROM transaksi_obat to
+        JOIN obat o ON to.obat_id = o.id
+        GROUP BY o.nama_obat
+        ORDER BY total_resep DESC
+        LIMIT 5
+    .
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (132)
+in C:\xampp\htdocs\iclinic\index.php (16)
+2025/08/03 16:16:28 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "to"
+LINE 2:         SELECT o.nama_obat, SUM(to.jumlah) AS total_resep
+                                        ^. The SQL statement executed was: 
+        SELECT o.nama_obat, SUM(to.jumlah) AS total_resep
+        FROM transaksi_obat to
+        JOIN obat o ON to.obat_id = o.id
+        GROUP BY o.nama_obat
+        ORDER BY total_resep DESC
+        LIMIT 5
+     in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(132): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionDashboard()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('dashboard')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/dashboard')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iclinic\index.php(16): CApplication->run()
+#15 {main}
+REQUEST_URI=/iclinic/index.php/site/dashboard
+HTTP_REFERER=http://localhost/iclinic/index.php/site/kunjungan
+---
+2025/08/04 00:35:03 [error] [exception.CException] CException: SiteController cannot find the requested view "pages/list-wilayah". in C:\xampp\htdocs\yii\framework\web\CController.php:881
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('pages/list-wila...', Array, true)
+#1 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(312): CController->render('pages/list-wila...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionWilayah()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('wilayah')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/wilayah')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iclinic/index.php/site/wilayah
+HTTP_REFERER=http://localhost/iclinic/index.php/site/dashboard
+---
+2025/08/04 00:48:59 [error] [php] Undefined variable $t (C:\xampp\htdocs\iclinic\protected\views\site\pages\wilayah\list-wilayah.php:43)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(312): SiteController->render()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionWilayah()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(13): CWebApplication->run()
+REQUEST_URI=/iclinic/index.php/site/wilayah
+in C:\xampp\htdocs\iclinic\protected\views\site\pages\wilayah\list-wilayah.php (43)
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (312)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/04 01:10:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type date: ""
+CONTEXT:  unnamed portal parameter $4 = ''. The SQL statement executed was: INSERT INTO "pasien" ("nama", "nik", "alamat", "tanggal_lahir", "jenis_kelamin", "kunjungan_id", "keterangan_kunjungan", "user_id") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (379)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/04 01:10:01 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type date: ""
+CONTEXT:  unnamed portal parameter $4 = ''. The SQL statement executed was: INSERT INTO "pasien" ("nama", "nik", "alamat", "tanggal_lahir", "jenis_kelamin", "kunjungan_id", "keterangan_kunjungan", "user_id") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7) in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(379): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionAddPasien()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('addPasien')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addPasien')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/iclinic/index.php/site/addPasien
+HTTP_REFERER=http://localhost/iclinic/index.php/site/addPasien
+---
+2025/08/04 03:57:56 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\xampp\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('deleteWilayah')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/deleteWila...')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/iclinic/index.php/site/deleteWilayah
+HTTP_REFERER=http://localhost/iclinic/index.php/site/wilayah
+---
+2025/08/04 03:58:02 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\xampp\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('deleteWilayah')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/deleteWila...')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/iclinic/index.php/site/deleteWilayah
+HTTP_REFERER=http://localhost/iclinic/index.php/site/wilayah
+---
+2025/08/04 04:00:48 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  update or delete on table "users" violates foreign key constraint "fk_transaksi_user" on table "transaksi"
+DETAIL:  Key (id)=(13) is still referenced from table "transaksi".. The SQL statement executed was: DELETE FROM "users" WHERE "users"."id"=13.
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (256)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/04 04:00:48 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  update or delete on table "users" violates foreign key constraint "fk_transaksi_user" on table "transaksi"
+DETAIL:  Key (id)=(13) is still referenced from table "transaksi".. The SQL statement executed was: DELETE FROM "users" WHERE "users"."id"=13 in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1810): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1230): CActiveRecord->deleteByPk(13)
+#2 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(256): CActiveRecord->delete()
+#3 [internal function]: SiteController->actionDeleteUser('13')
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('deleteUser')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/deleteUser')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/iclinic/index.php/site/deleteUser?id=13
+HTTP_REFERER=http://localhost/iclinic/index.php/site/userList
+---
+2025/08/04 04:04:40 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  update or delete on table "users" violates foreign key constraint "fk_transaksi_user" on table "transaksi"
+DETAIL:  Key (id)=(13) is still referenced from table "transaksi".. The SQL statement executed was: DELETE FROM "users" WHERE "users"."id"=13.
+in C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php (256)
+in C:\xampp\htdocs\iclinic\index.php (13)
+2025/08/04 04:04:40 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  update or delete on table "users" violates foreign key constraint "fk_transaksi_user" on table "transaksi"
+DETAIL:  Key (id)=(13) is still referenced from table "transaksi".. The SQL statement executed was: DELETE FROM "users" WHERE "users"."id"=13 in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1810): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1230): CActiveRecord->deleteByPk(13)
+#2 C:\xampp\htdocs\iclinic\protected\controllers\SiteController.php(256): CActiveRecord->delete()
+#3 [internal function]: SiteController->actionDeleteUser('13')
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('deleteUser')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/deleteUser')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iclinic\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/iclinic/index.php/site/deleteUser?id=13
+HTTP_REFERER=http://localhost/iclinic/index.php/site/userList
+---

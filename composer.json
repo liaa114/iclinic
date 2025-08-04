@@ -1,0 +1,10 @@
+{
+    "name": "dell/iclinic",
+    "description": "Sistem informasi klinik berbasis Yii 1.1",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "mpdf/mpdf": "^8.2"
+    }
+}
